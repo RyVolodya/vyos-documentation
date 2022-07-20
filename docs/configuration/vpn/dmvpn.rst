@@ -261,6 +261,7 @@ spoke01-spoke04
   crypto ipsec profile DMVPN
    set security-association idle-time 720
    set transform-set DMVPN-AES256
+   set pfs group2
    set isakmp-profile DMVPN
   !
   interface Tunnel10
